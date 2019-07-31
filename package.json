@@ -16,11 +16,9 @@
     "express": "~4.13.1",
     "express-session": "^1.12.1",
     "hbs": "^4.0.0",
-    "hbs-utils": "0.0.3",
     "jsen": "^0.6.1",
     "log4js": "^0.6.29",
     "mongodb": "^1.4.39",
-    "monk": "^1.0.1",
     "morgan": "~1.6.1",
     "node-uuid": "^1.4.7",
     "q": "^1.4.1",
@@ -31,8 +29,10 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
+    "hbs-utils": "0.0.4",
     "istanbul": "^0.4.1",
     "mocha": "^2.3.4",
+    "monk": "^7.0.0",
     "supertest": "^1.1.0"
   }
 }

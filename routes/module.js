@@ -190,7 +190,7 @@ router.get('/index.html', function (req, res) {
   function gp(id) {
     var def = q.defer();
     var cPro = db.get('projects');
-    cPro.findById(id, function (err, data) {
+    cPro.find({id:id}, function (err, data) {
       if (err) {
         console.error(err);
         def.reject(err);
